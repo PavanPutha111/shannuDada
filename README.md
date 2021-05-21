@@ -18,3 +18,7 @@
 ![bd-6](https://user-images.githubusercontent.com/83884588/119143251-05668480-ba65-11eb-84ea-5385595f9948.jpeg)
 
 ![bd-7](https://user-images.githubusercontent.com/83884588/119143278-0dbebf80-ba65-11eb-89cb-baa5b757d0b3.jpeg)
+
+![shannu-bdpic](https://user-images.githubusercontent.com/83884588/119144918-c6393300-ba66-11eb-8e3d-eb9a9ddb0438.jpeg)
+
+![shannu-bdpic2](https://user-images.githubusercontent.com/83884588/119144937-cafde700-ba66-11eb-876e-4899da78a44d.jpeg)
