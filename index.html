@@ -11,7 +11,7 @@
             text-align: center;
             font-size: 2.5rem;
             animation: flicker 1.5s infinite alternate;
-            color: wheat;
+            color: rgb(245, 179, 185);
         }
         
         @keyframes flicker {
@@ -22,7 +22,7 @@
             53%,
             57%,
             100% {
-                text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #0fa, 0 0 80px #0fa, 0 0 90px #0fa, 0 0 100px #0fa, 0 0 150px #0fa;
+                text-shadow: 0 0 4px blue, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #0fa, 0 0 80px #0fa, 0 0 90px #0fa, 0 0 100px #0fa, 0 0 150px #0fa;
             }
             20%,
             24%,
@@ -39,24 +39,80 @@
         
         .column {
             float: left;
-            padding: 5px;
+            padding: 7px;
+        }
+        
+        .title {
+            text-align: center;
+            background-color: black;
+            color: blanchedalmond;
+        }
+        
+        #clickme:hover {
+            color: white;
+            background-color: crimson;
+        }
+        
+        #ending {
+            text-align: center;
+            background-color: thistle;
         }
     </style>
 </head>
 
 <body>
+    <div class="title">
+        <marquee behavior="" direction="left">
+            <h1>BIRTHDAY WISHES FROM FAMILY🎂</h1>
+        </marquee>
+    </div>
     <P class="neonText">Many Many Happy returns of the Day DADA</P>
+    <div>
+        <h1 id="familygreet"></h1>
+        <span>Click Me: <button id="clickme">Greeting BY</button></span>
+    </div>
     <div class="row">
         <div class="column">
-            <img src="https://user-images.githubusercontent.com/83884588/119121482-1aceb500-ba4b-11eb-8eca-ffff0d15b4b6.jpeg" alt="bdpics" width="300px" height="400px">
+            <img src="shannu-bdpic.jpeg" alt="bdpics" width="300px" height="400px">
         </div>
         <div class="column">
-            <img src="https://user-images.githubusercontent.com/83884588/119125971-0e009000-ba50-11eb-9c3d-3549eee37ca9.jpg" alt="" width="300px" height="400px">
+            <img src="bd-1.jpeg" alt="" width="300px" height="400px">
         </div>
         <div class="column">
-            <img src="https://user-images.githubusercontent.com/83884588/119125953-093bdc00-ba50-11eb-9538-5a0e4d5accc3.jpeg" alt="bdpics" width="300px">
+            <img src="shannu-bdpic2.jpeg" alt="bdpics" width="300px" height="400px">
+        </div>
+        <div class="column">
+            <img src="nandu-shannu.jpeg" alt="bdpics" width="300px" height="400px">
+        </div>
+        <div class="column">
+            <img src="family-of3.jpeg" alt="bdpics" width="300px" height="400px">
+        </div>
+        <div class="column">
+            <img src="bd-2.jpeg" alt="bdpics" width="300px" height="400px">
+        </div>
+        <div class="column">
+            <img src="bd-3.jpeg" alt="bdpics" width="300px" height="400px">
+        </div>
+        <div class="column">
+            <img src="bd-4.jpeg" alt="bdpics" width="300px" height="400px">
+        </div>
+        <div class="column">
+            <img src="bd-5.jpeg" alt="bdpics" width="300px" height="400px">
         </div>
     </div>
+    <div id="ending">
+        <marquee behavior="" direction="">
+            <h1>Happy Family👪</h1>
+        </marquee>
+    </div>
+    <script>
+        let clicker = document.getElementById('clickme');
+        let familyList = 'Shannu Dimpi Nandu Uncle Aunty';
+
+        clicker.addEventListener('click', function() {
+            document.getElementById('familygreet').innerHTML = 'SHANNU, DIMPI, NANDU, UNCLE, AUNTY ';
+        })
+    </script>
 </body>
 
 </html>
